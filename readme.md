@@ -10,9 +10,9 @@ This repo reproduces an issue where session tracking does not recover when movin
 - With sensors covered, move to another room
 - Uncover sensors
 - Observe that tracking does not recover. Spatial meshes not visible, SessionInitializing
-
 - Return to main space and allow device to relocalize
 - Observe that session tracking recovers and meshes reappear
+
 
 ![image](https://github.com/camnewnham/Unity-Repro-OpenXR-TrackingLoss/assets/19278856/cd1b6096-fd3c-4428-828c-2c197bdd9a05)
 
