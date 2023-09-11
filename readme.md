@@ -2,7 +2,7 @@ This repo reproduces an issue where session tracking does not recover when movin
 
 
 # Reproduction Steps
-- Pull/create project (see below)
+- Pull/create project (see below for from-scratch instructions)
 - On HoloLens, "Remove All Holograms" to clear tracking data
 - Build and deploy
 - Observe normal behaviour at launch - spatial meshes visible, SessionTracking
@@ -11,9 +11,12 @@ This repo reproduces an issue where session tracking does not recover when movin
 - Uncover sensors
 - Observe that tracking does not recover. Spatial meshes not visible, SessionInitializing
 
-Option 1: Pull this preconfigured repo: 
-Option 2: Recreate from scratch with the following steps:
+- Return to main space and allow device to relocalize
+- Observe that session tracking recovers and meshes reappear
 
+![image](https://github.com/camnewnham/Unity-Repro-OpenXR-TrackingLoss/assets/19278856/cd1b6096-fd3c-4428-828c-2c197bdd9a05)
+
+## From Scratch
 - Create new Unity project in 2022.3.9f1
 - Add XR packages
  - XR Plugin Management 4.3.3
