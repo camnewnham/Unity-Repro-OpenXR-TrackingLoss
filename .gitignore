@@ -1,0 +1,11 @@
+.vsconfig
+.vs/
+*.csproj
+Assets/TextMesh Pro/
+Build/
+Library/
+UserSettings/
+Temp/
+Logs/
+obj/
+Assets/TextMesh Pro.meta
